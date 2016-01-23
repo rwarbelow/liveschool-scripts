@@ -42,6 +42,6 @@ module Tables
   end
 
   def self.files
-     Dir["../../liveschool_scripts/*.csv"]
+     Dir["../raw_liveschool_data/*.csv"]
   end
 end
